@@ -1,0 +1,13 @@
+D:\Database\Kursach\RailWay\RailWay\RailWay\bin\Debug\RailWay.exe.config
+D:\Database\Kursach\RailWay\RailWay\RailWay\bin\Debug\RailWay.exe
+D:\Database\Kursach\RailWay\RailWay\RailWay\bin\Debug\RailWay.pdb
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.csprojAssemblyReference.cache
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.Properties.Resources.resources
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.csproj.GenerateResource.cache
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.exe
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.pdb
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.RegisterForm.resources
+D:\Database\Kursach\RailWay\RailWay\RailWay\obj\Debug\RailWay.EmployeeSignInForm.resources
+D:\Database\Kursach\RailWay\Railway\RailWay\obj\Debug\RailWay.PassengerForm.resources
+D:\Database\Kursach\RailWay\Railway\RailWay\obj\Debug\RailWay.DispatcherForm.resources
+D:\Database\Kursach\RailWay\Railway\RailWay\obj\Debug\RailWay.accountantForm.resources
