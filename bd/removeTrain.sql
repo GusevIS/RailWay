@@ -1,0 +1,14 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE removeTrain
+	@train_id int
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+    DELETE train WHERE train_id = @train_id
+END
+GO

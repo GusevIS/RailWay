@@ -1,0 +1,15 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE PROCEDURE getExistsTrainTypes
+
+AS
+BEGIN
+
+	SET NOCOUNT ON;
+
+	SELECT train_type.type_name AS [type] FROM train_type
+END
+GO

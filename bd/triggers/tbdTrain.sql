@@ -1,0 +1,18 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TRIGGER tbdTrain
+   ON train
+   INSTEAD OF DELETE
+AS 
+BEGIN
+	SET NOCOUNT ON;
+
+    UPDATE train
+	SET deleted = 1
+	WHERE (SELECT train_id FROM deleted) = train_id;
+
+END
+GO

@@ -1,0 +1,214 @@
+INSERT train_type VALUES ('express');
+INSERT train_type VALUES ('high-speed');
+INSERT train_type VALUES ('suburban');
+
+INSERT carriage_type VALUES ('economy-class', 1);
+INSERT carriage_type VALUES ('business', 2.2);
+INSERT carriage_type VALUES ('comfort-class', 1.5);
+
+INSERT station VALUES ('SPB');
+INSERT station VALUES ('MOSCOW');
+INSERT station VALUES ('SOCHI');
+INSERT station VALUES ('YAROSLAVL');
+INSERT station VALUES ('GREAT-NOVGOROD');
+INSERT station VALUES ('NIZNIY-NOVGOROD');
+INSERT station VALUES ('MURMANSK');
+INSERT station VALUES ('KAZAN');
+INSERT station VALUES ('KRASNODAR');
+INSERT station VALUES ('TVER');
+GO
+
+INSERT train VALUES (1, 90, 5, 1);
+INSERT train VALUES (1, 95, 5, 1);
+INSERT train VALUES (3, 70, 4, 1);
+INSERT train VALUES (1, 80, 4, 1);
+INSERT train VALUES (2, 150, 8, 1);
+INSERT train VALUES (3, 65, 5, 1);
+INSERT train VALUES (3, 70, 3, 1);
+INSERT train VALUES (3, 75, 4, 1);
+INSERT train VALUES (1, 100, 5, 1);
+INSERT train VALUES (2, 200, 6, 1);
+INSERT train VALUES (1, 100, 5, 1);
+GO
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 3, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 20
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 3, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 20
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 3, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 20
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 3, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 20
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 3, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 20
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 3, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 20
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 2, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+EXEC addCarriage @wearout = 10, @total_mileage = 1000, @carriage_type = 1, @station_name = 'MOSCOW', @repair_price = 10000, @place_count = 44
+GO
+
+INSERT train_posts VALUES ('проводник', 0, 3);
+	INSERT train_posts VALUES ('машинист', 3, 3);
+	INSERT train_posts VALUES ('инженер', 2, 3);
+	INSERT train_posts VALUES ('охранник', 0, 3);
+
+	INSERT train_posts VALUES ('проводник', 0, 1);
+	INSERT train_posts VALUES ('машинист', 3, 1);
+	INSERT train_posts VALUES ('инженер', 2, 1);
+	INSERT train_posts VALUES ('охранник', 0, 1);
+
+	INSERT train_posts VALUES ('проводник', 0, 4);
+	INSERT train_posts VALUES ('машинист', 3, 4);
+	INSERT train_posts VALUES ('инженер', 2, 4);
+	INSERT train_posts VALUES ('охранник', 0, 4);
+
+	INSERT train_posts VALUES ('проводник', 0, 2);
+	INSERT train_posts VALUES ('машинист', 3, 2);
+	INSERT train_posts VALUES ('инженер', 2, 2);
+	INSERT train_posts VALUES ('охранник', 0, 2);
+
+	INSERT train_posts VALUES ('проводник', 0, 5);
+	INSERT train_posts VALUES ('машинист', 3, 5);
+	INSERT train_posts VALUES ('инженер', 2, 5);
+	INSERT train_posts VALUES ('охранник', 0, 5);
+
+	INSERT train_posts VALUES ('проводник', 0, 6);
+	INSERT train_posts VALUES ('машинист', 3, 6);
+	INSERT train_posts VALUES ('инженер', 2, 6);
+	INSERT train_posts VALUES ('охранник', 0, 6);
+
+	INSERT train_posts VALUES ('проводник', 0, 7);
+	INSERT train_posts VALUES ('машинист', 3, 7);
+	INSERT train_posts VALUES ('инженер', 2, 7);
+	INSERT train_posts VALUES ('охранник', 0, 7);
+        GO
+INSERT train_staff VALUES ('qwe', 3000, 7, 'qwe123', 1);
+INSERT train_staff VALUES ('qwe', 2000, 5, 'qwe1', 1);
+INSERT train_staff VALUES ('qwe', 6000, 10, 'qe123', 2);
+INSERT train_staff VALUES ('qwe', 3000, 7, 'qwe23', 1);
+INSERT train_staff VALUES ('qwe', 2000, 4, 'qw1', 5);
+INSERT train_staff VALUES ('qwe', 6000, 12, 'qwe13', 5);
+INSERT train_staff VALUES ('qwe', 3000, 2, 'qwe123', 6);
+INSERT train_staff VALUES ('qwe', 2000, 5, 'q1', 7);
+INSERT train_staff VALUES ('qwe', 6000, 10, 'qw123', 6);
+INSERT train_staff VALUES ('qwe', 3000, 7, 'qwe23', 7);
+INSERT train_staff VALUES ('qwe', 2000, 4, 'qwe1', 8);
+INSERT train_staff VALUES ('qwe', 6000, 10, 'qwe123', 9);
+INSERT train_staff VALUES ('qwe', 3000, 7, 'qwe123', 8);
+INSERT train_staff VALUES ('qwe', 2000, 5, 'qwe1', 8);
+INSERT train_staff VALUES ('qwe', 6000, 10, 'qwe123', 10);
+INSERT train_staff VALUES ('qwe', 3000, 7, 'qwe123', 10);
+INSERT train_staff VALUES ('qwe', 2000, 5, 'qwe1', 11);
+INSERT train_staff VALUES ('qwe', 6000, 10, 'qe123', 22);
+INSERT train_staff VALUES ('qwe', 3000, 7, 'qwe123', 13);
+INSERT train_staff VALUES ('qwe', 2000, 5, 'qwe1', 11);
+INSERT train_staff VALUES ('qwe', 6000, 10, 'qwe123', 4);
+GO
+
+INSERT station_posts VALUES ('нач. станции', 3, 1);
+INSERT station_posts VALUES ('кассир', 0, 1);
+INSERT station_posts VALUES ('уборщик', 0, 1);
+INSERT station_posts VALUES ('нач. станции', 3, 3);
+INSERT station_posts VALUES ('кассир', 0, 3);
+INSERT station_posts VALUES ('уборщик', 0, 3);
+INSERT station_posts VALUES ('нач. станции', 3, 2);
+INSERT station_posts VALUES ('кассир', 0, 2);
+INSERT station_posts VALUES ('уборщик', 0, 2);
+INSERT station_posts VALUES ('нач. станции', 3, 4);
+INSERT station_posts VALUES ('кассир', 0, 4);
+INSERT station_posts VALUES ('уборщик', 0, 4);
+INSERT station_posts VALUES ('нач. станции', 3, 5);
+INSERT station_posts VALUES ('кассир', 0, 5);
+INSERT station_posts VALUES ('уборщик', 0, 5);
+INSERT station_posts VALUES ('нач. станции', 3, 6);
+INSERT station_posts VALUES ('кассир', 0, 6);
+INSERT station_posts VALUES ('уборщик', 0, 6);
+INSERT station_posts VALUES ('нач. станции', 3, 7);
+INSERT station_posts VALUES ('кассир', 0, 7);
+INSERT station_posts VALUES ('уборщик', 0, 7);
+INSERT station_posts VALUES ('нач. станции', 3, 8);
+INSERT station_posts VALUES ('кассир', 0, 8);
+INSERT station_posts VALUES ('уборщик', 0, 8);
+INSERT station_posts VALUES ('нач. станции', 3, 9);
+INSERT station_posts VALUES ('кассир', 0, 9);
+INSERT station_posts VALUES ('уборщик', 0, 9);
+INSERT station_posts VALUES ('нач. станции', 3, 10);
+INSERT station_posts VALUES ('кассир', 0, 10);
+INSERT station_posts VALUES ('уборщик', 0, 10);
+GO
+
+INSERT station_staff VALUES ('ewq', 3000, 7, 'ewq123', 1);
+INSERT station_staff VALUES ('ewq', 2000, 5, 'ewq1', 1);
+INSERT station_staff VALUES ('ewq', 6000, 10, 'qe123', 2);
+INSERT station_staff VALUES ('ewq', 3000, 7, 'ewq23', 1);
+INSERT station_staff VALUES ('ewq', 2000, 4, 'qw1', 5);
+INSERT station_staff VALUES ('ewq', 6000, 12, 'ewq13', 5);
+INSERT station_staff VALUES ('ewq', 3000, 2, 'ewq123', 6);
+INSERT station_staff VALUES ('ewq', 2000, 5, 'q1', 7);
+INSERT station_staff VALUES ('ewq', 6000, 10, 'qw123', 6);
+INSERT station_staff VALUES ('ewq', 3000, 7, 'ewq23', 7);
+INSERT station_staff VALUES ('ewq', 2000, 4, 'ewq1', 8);
+INSERT station_staff VALUES ('ewq', 6000, 10, 'ewq123', 9);
+INSERT station_staff VALUES ('ewq', 3000, 7, 'ewq123', 8);
+INSERT station_staff VALUES ('ewq', 2000, 5, 'ewq1', 8);
+INSERT station_staff VALUES ('ewq', 6000, 10, 'ewq123', 10);
+INSERT station_staff VALUES ('ewq', 3000, 7, 'ewq123', 10);
+INSERT station_staff VALUES ('ewq', 2000, 5, 'ewq1', 11);
+INSERT station_staff VALUES ('ewq', 6000, 10, 'qe123', 10);
+INSERT station_staff VALUES ('ewq', 3000, 7, 'ewq123', 13);
+INSERT station_staff VALUES ('ewq', 2000, 5, 'ewq1', 11);
+INSERT station_staff VALUES ('ewq', 6000, 10, 'ewq123', 4);
+GO
+
+INSERT run_between_stations VALUES (7, 1, 1000);
+INSERT run_between_stations VALUES (1, 5, 160);
+INSERT run_between_stations VALUES (5, 10, 330);
+INSERT run_between_stations VALUES (10, 2, 140);
+INSERT run_between_stations VALUES (10, 4, 240);
+INSERT run_between_stations VALUES (4, 6, 300);
+INSERT run_between_stations VALUES (2, 6, 400);
+INSERT run_between_stations VALUES (6, 8, 315);
+INSERT run_between_stations VALUES (2, 9, 1200);
+INSERT run_between_stations VALUES (9, 3, 170);
+
+INSERT run_between_stations VALUES (1, 7, 1000);
+INSERT run_between_stations VALUES (5, 1, 160);
+INSERT run_between_stations VALUES (10, 5, 330);
+INSERT run_between_stations VALUES (2, 10, 140);
+INSERT run_between_stations VALUES (4, 10, 240);
+INSERT run_between_stations VALUES (6, 4, 300);
+INSERT run_between_stations VALUES (6, 2, 400);
+INSERT run_between_stations VALUES (8, 6, 315);
+INSERT run_between_stations VALUES (9, 2, 1200);
+INSERT run_between_stations VALUES (3, 9, 170);
+GO
