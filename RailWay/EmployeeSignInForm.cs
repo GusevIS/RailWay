@@ -38,12 +38,12 @@ namespace RailWay
       string password = signInTextBox.Text.ToString();
       switch(password)
       {
-        case "1":
+        case dispatcherPassword:
           DispatcherForm dispatcherForm = new DispatcherForm(registerForm, DbHandler);
           dispatcherForm.Show();
           this.Hide();
           break;
-        case "2":
+        case accountantPassword:
           AccountantForm accountantForm = new AccountantForm(registerForm, DbHandler);
           accountantForm.Show();
           this.Hide();
